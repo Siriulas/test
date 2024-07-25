@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers.js","sources":["../src/main.js"],"sourcesContent":["import Swiper from 'swiper';\n\nvar swiper = new Swiper('.mySwiper', {\n  navigation: {\n    nextEl: '.swiper-button-next',\n    prevEl: '.swiper-button-prev',\n  },\n});\n"],"names":["Swiper"],"mappings":"svBAEa,IAAIA,EAAO,YAAa,CACnC,WAAY,CACV,OAAQ,sBACR,OAAQ,qBACT,CACH,CAAC"}
