@@ -12,20 +12,16 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
+     <div class="swiper-container">
+    <div class="swiper-wrapper" id="swiper-wrapper">
+    </div>
+  </div>
+      <div class="btn-wrap">
+        <div class="nav-btn swiper-button-prev">
+          <svg id="icon-arrow-narrow-right"></svg>
+        </div>
+        <div class="nav-btn swiper-button-next"><svg id="icon-arrow-narrow-left"></svg></div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./main.js"></script>
